@@ -1,9 +1,9 @@
-//include this .c file's header file
 #include "Robot.h"
 
-//static function prototypes, functions only called in this file
+// Constants
+#define DISTANCE 40			// Distance to Wall
 
-#define DISTANCE 40
+
 void autorobot(bool motor, bool motordirection, uint16_t speedpercent);
 uint16_t short_range(uint16_t sensor_output);
 
