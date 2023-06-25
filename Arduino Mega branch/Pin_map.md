@@ -44,20 +44,20 @@ output = ADC;
 
 |Silkscreen Pin   |Microcontroller pin   |Port   |Digital Pin   |Comms Pin   |Timer Pin| Interrupt Pin|
 |---|---|---|---|---|---|---|
-|0   |PE0   |   |   |   |   |   |
-|1   |PE1   |   |   |   |   |   |
-|~2  |PE4   |   |   |   |   |   |
-|~3  |PE5   |   |   |   |   |   |
-|~4  |PG5   |   |   |   |   |   |
-|~5  |PE3   |   |   |   |   |   |
-|~6  |PH3   |   |   |   |   |   |
-|~7  |PH4   |   |   |   |   |   |
-|~8  |PH5   |   |   |   |   |   |
-|~9  |PH6   |   |   |   |   |   |
-|~10 |PB4   |   |   |   |   |   |
-|~11 |PB5   |   |   |   |   |   |
-|~12 |PB6   |   |   |   |   |   |
-|~13 |PB7   |   |   |   |   |   |
+|0   |PE0   |PORTE   |D0/RX0   |   |   |   |
+|1   |PE1   |PORTE   |D1/TX0   |   |   |   |
+|~2  |PE4   |PORTE   |~D2   |   |   |   |
+|~3  |PE5   |PORTE   |~D3   |   |   |   |
+|~4  |PG5   |PORTG   |~D4   |   |   |   |
+|~5  |PE3   |PORTE   |~D5   |   |   |   |
+|~6  |PH3   |PORTH   |~D6   |   |   |   |
+|~7  |PH4   |PORTH   |~D7   |   |   |   |
+|~8  |PH5   |PORTH   |~D8   |   |   |   |
+|~9  |PH6   |PORTH   |~D9   |   |   |   |
+|~10 |PB4   |PORTB   |~D10  |   |   |   |
+|~11 |PB5   |PORTB   |~D11  |   |   |   |
+|~12 |PB6   |PORTB   |~D12  |   |   |   |
+|~13 |PB7   |PORTB   |~D13  |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
