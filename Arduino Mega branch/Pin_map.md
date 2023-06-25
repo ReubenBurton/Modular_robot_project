@@ -1,6 +1,6 @@
-#H1 ARDUINO MEGA - Atmel 2560
+# ARDUINO MEGA - Atmel 2560
 
-#H2 Analog Pins
+## Analog Pins
 |   Silkscreen Pin	|Microcontroller Pin   	| Port  	|   	|   	|
 |---	|---	|---	|---	|---	|
 |A0   	|PF0   	|PORTF   	|   	|   	|
@@ -21,7 +21,7 @@
 |A15    |PK7   	|PORTF   	|   	|   	|
 
 You could probably encapsulate this in a function:
-Usage Example (Analog Pin 0):
+### Usage Example (Analog Pin 0):
 Author: Robert
 
 Initialization
