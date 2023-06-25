@@ -1,24 +1,24 @@
 # ARDUINO MEGA - Atmel 2560
 
 ## Analog Pins
-|   Silkscreen Pin	|Microcontroller Pin   	| Port  	|   	|   	|
+|   Silkscreen Pin	|Microcontroller Pin   	|Port  	|Digital Pin   	|Interrupt Register   	|
 |---	|---	|---	|---	|---	|
-|A0   	|PF0   	|PORTF   	|   	|   	|
-|A1   	|PF1   	|PORTF   	|   	|   	|
-|A2    	|PF2   	|PORTF   	|   	|   	|
-|A3     |PF3   	|PORTF   	|   	|   	|
-|A4     |PF4   	|PORTF   	|   	|   	|
-|A5     |PF5   	|PORTF   	|   	|   	|
-|A6     |PF6   	|PORTF   	|   	|   	|
-|A7     |PF7   	|PORTF   	|   	|   	|
-|A8     |PK0   	|PORTK   	|   	|   	|
-|A9     |PK1   	|PORTK   	|   	|   	|
-|A10    |PK2   	|PORTK   	|   	|   	|
-|A11    |PK3   	|PORTK   	|   	|   	|
-|A12    |PK4   	|PORTK   	|   	|   	|
-|A13    |PK5   	|PORTK   	|   	|   	|
-|A14    |PK6   	|PORTK   	|   	|   	|
-|A15    |PK7   	|PORTK   	|   	|   	|
+|A0   	|PF0   	|PORTF   	|D54   	|   	|
+|A1   	|PF1   	|PORTF   	|D55   	|   	|
+|A2    	|PF2   	|PORTF   	|D56   	|   	|
+|A3     |PF3   	|PORTF   	|D57   	|   	|
+|A4     |PF4   	|PORTF   	|D58   	|   	|
+|A5     |PF5   	|PORTF   	|D59   	|   	|
+|A6     |PF6   	|PORTF   	|D60   	|   	|
+|A7     |PF7   	|PORTF   	|D61   	|   	|
+|A8     |PK0   	|PORTK   	|D62   	|PCINT[16]  	|
+|A9     |PK1   	|PORTK   	|D63   	|PCINT[17]   	|
+|A10    |PK2   	|PORTK   	|D64   	|PCINT[18]   	|
+|A11    |PK3   	|PORTK   	|D65   	|PCINT[19]   	|
+|A12    |PK4   	|PORTK   	|D66   	|PCINT[20]   	|
+|A13    |PK5   	|PORTK   	|D67   	|PCINT[21]   	|
+|A14    |PK6   	|PORTK   	|D68   	|PCINT[22]   	|
+|A15    |PK7   	|PORTK   	|D69   	|PCINT[23]   	|
 
 You could probably encapsulate this in a function:
 ### Usage Example (Analog Pin 0):
