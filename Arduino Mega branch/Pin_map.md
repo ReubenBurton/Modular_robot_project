@@ -11,14 +11,14 @@
 |A5     |PF5   	|PORTF   	|   	|   	|
 |A6     |PF6   	|PORTF   	|   	|   	|
 |A7     |PF7   	|PORTF   	|   	|   	|
-|A8     |PK0   	|PORTF   	|   	|   	|
-|A9     |PK1   	|PORTF   	|   	|   	|
-|A10    |PK2   	|PORTF   	|   	|   	|
-|A11    |PK3   	|PORTF   	|   	|   	|
-|A12    |PK4   	|PORTF   	|   	|   	|
-|A13    |PK5   	|PORTF   	|   	|   	|
-|A14    |PK6   	|PORTF   	|   	|   	|
-|A15    |PK7   	|PORTF   	|   	|   	|
+|A8     |PK0   	|PORTK   	|   	|   	|
+|A9     |PK1   	|PORTK   	|   	|   	|
+|A10    |PK2   	|PORTK   	|   	|   	|
+|A11    |PK3   	|PORTK   	|   	|   	|
+|A12    |PK4   	|PORTK   	|   	|   	|
+|A13    |PK5   	|PORTK   	|   	|   	|
+|A14    |PK6   	|PORTK   	|   	|   	|
+|A15    |PK7   	|PORTK   	|   	|   	|
 
 You could probably encapsulate this in a function:
 ### Usage Example (Analog Pin 0):
