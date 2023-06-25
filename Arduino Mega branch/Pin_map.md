@@ -100,3 +100,27 @@ output = ADC;
 |51   |PB2   |PORTB   |D51   |MOSI   |    |PCINT[2]   |
 |52   |PB1   |PORTB   |D52   |SCK    |    |PCINT[1]   |
 |53   |PB0   |PORTB   |D53   |SS     |    |PCINT[0]   |
+
+## Other Pins
+
+### ICSCP (right to left)
+
+|Silkscreen Pin   |Microcontroller pin   |Port   |Digital Pin   |Comms Pin   |Timer Pin| Interrupt Pin|
+|---|---|---|---|---|---|---|
+|1   |PB3   |PORTB   |   |   |MISO  |PCINT[3]   |
+|2   |5V   |   |   |   |   |   |
+|3   |PB1   |PORTB   |   |   |SCK   |PCINT[1]   |
+|4   |PB3   |PORTB   |   |   |MOSI  |PCINT[2]   |
+|5   |RESET |   |   |   |   |   |
+|6   |GND   |   |   |   |   |   |
+
+### ICSP1 (top to bottom)
+
+|Silkscreen Pin   |Microcontroller pin   |Port   |Digital Pin   |Comms Pin   |Timer Pin| Interrupt Pin|
+|---|---|---|---|---|---|---|
+|1   |PB3   |PORTB   |   |   |MISO  |   |
+|2   |5V   |   |   |   |   |   |
+|3   |PB1   |PORTB   |   |   |SCK   |   |
+|4   |PB2   |PORTB   |   |   |MOSI  |   |
+|5   |PC1 |PORTC   |   |   |RESET   |   |
+|6   |GND   |   |   |   |   |   |
