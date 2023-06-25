@@ -24,18 +24,19 @@ You could probably encapsulate this in a function:
 ### Usage Example (Analog Pin 0):
 Author: Robert
 
-Initialization
-uint16_t output;
-ADCSRA = (1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0); // ADC prescaler = 128
-ADMUX = (1<<REFS0); //use internal Vcc AREF, make sure capacitor is attached to AREF pin
-ADCSRB = 0; //ADC0 source, single conversion mode
-ADCSRA |= (1<<ADEN); //enable ADC
+**Initialization:** 
 
-Read 
-ADCSRB &= ~(1<<MUX5); //clear mux5
-ADMUX = (ADMUX&(0xE0))|(0&0x07); //set remaining mux bits
-while(ADCSRA&(1<<ADSC)){} //wait for conversion to finish
-output = ADC;
+uint16_t output;  
+ADCSRA = (1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0); // ADC prescaler = 128  
+ADMUX = (1<<REFS0); //use internal Vcc AREF, make sure capacitor is attached to AREF pin  
+ADCSRB = 0; //ADC0 source, single conversion mode  
+ADCSRA |= (1<<ADEN); //enable ADC  
 
+**Read:** 
+
+ADCSRB &= ~(1<<MUX5); //clear mux5  
+ADMUX = (ADMUX&(0xE0))|(0&0x07); //set remaining mux bits  
+while(ADCSRA&(1<<ADSC)){} //wait for conversion to finish  
+output = ADC;  
 
 
